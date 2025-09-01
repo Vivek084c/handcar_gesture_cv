@@ -15,6 +15,10 @@ A simple hand gesture recognition project using OpenCV, MediaPipe, and NumPy.
 ### Thumbs Up
 ![Thumbs Up Demo](assets/close.png)
 
+## Demo Video  
+
+- The demo video can be accessed through the link [here](https://drive.google.com/file/d/1hhhnOSMpXxIV75jculkRmvDPz6Qc59wO/view?usp=sharing).
+
 ## Setup
 
 1. **Clone the repository:**
