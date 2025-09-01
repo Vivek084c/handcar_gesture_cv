@@ -61,6 +61,9 @@ handcar_gesture_cv/
     ├── const.py
     ├── main.py
     └── utils.py
+└── assets/
+    ├── close.png
+    ├── open.png
 ```
 
 ## Requirements
