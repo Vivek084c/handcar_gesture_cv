@@ -66,15 +66,7 @@ handcar_gesture_cv/
     ├── open.png
 ```
 
-## Requirements
 
-- Python 3.7+
-- Webcam
-
-## Notes
-
-- Make sure your webcam is connected and accessible.
-- For any issues, please open an issue on GitHub.
 
 ## Future work
 
