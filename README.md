@@ -1,11 +1,5 @@
 # Hand Gesture Recognition (handcar_gesture_cv)
 
-A simple hand gesture recognition project using OpenCV, MediaPipe, and NumPy.
-
-## Features
-
-- Detects hand gestures in real-time using your webcam.
-- Recognizes gestures like Thumbs Up, Fist, Open Palm, and Peace.
 
 ## Demo
 
@@ -18,6 +12,17 @@ A simple hand gesture recognition project using OpenCV, MediaPipe, and NumPy.
 ## Demo Video  
 
 - The demo video can be accessed through the link [here](https://drive.google.com/file/d/1hhhnOSMpXxIV75jculkRmvDPz6Qc59wO/view?usp=sharing).
+
+## Working Methodology
+A simple hand gesture recognition project using OpenCV, MediaPipe, and NumPy.
+
+This project focuses on recognizing hand gestures by analyzing the position of each finger using MediaPipe. The idea is simple: for the four main fingers (index, middle, ring, and pinky), the system checks whether the fingertip is higher or lower than its joint to decide if the finger is raised or folded. The thumb is treated differently, since it bends sideways—its position and angle are checked to see if it’s pointing upwards. Once the state of each finger is known, different gestures are identified through pattern matching. For instance, a raised thumb with other fingers folded is recognized as a “Thumbs Up,” all fingers closed form a “Fist,” all open fingers show an “Open Palm,” and only the index and middle fingers raised represent “Peace.” If no pattern fits, the gesture is labeled as “Unknown.”
+
+## Features
+
+- Detects hand gestures in real-time using your webcam.
+- Recognizes gestures like Thumbs Up, Fist, Open Palm, and Peace.
+
 
 ## Setup
 
